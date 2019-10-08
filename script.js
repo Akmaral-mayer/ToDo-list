@@ -62,7 +62,7 @@ Add = () => {
         li.append(label);
         li.append(doneBtn);
         li.append(deleteBtn);
-        list.append(li);
+        list.prepend(li);
     }
 
 }
